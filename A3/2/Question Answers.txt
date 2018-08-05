@@ -1,0 +1,10 @@
+Which of the implementations uses more memory? Explain why.					
+The linked list uses significantly more memory, because of all the pointers					
+					
+Which of the implementations is the fastest? Explain why.					
+Linked lists are slightly faster at lower numbers, but in higher numbers 					
+the dynamic array becomes faster, I think they generally iterate at the same speed					
+					
+Would you expect anything to change if the loop performed remove() instead of contains()? If so, what?					
+I would expect remove to perform faster with a linked list because the dynamic array has to copy the rest					
+of the array from the spot you move a value out of, whereas a linked list doesn't have to do this. 					
